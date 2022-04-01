@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter13</title>
+</head>
+
+<body>
+    <h1>Testing sets of conditions</h1>
+    <script>
+        var maths = 35;
+        var english = 35;
+        var urdu = 35;
+
+        var total = (maths + english + urdu) / 300 * 100;
+
+        var totalScoreToPass = 40;
+
+        alert(total);
+        alert(totalScoreToPass);
+
+
+        if (maths >= 33 && english >= 33 && urdu >= 33 && total >= totalScoreToPass) {
+            alert("Congratulations! You have passed");
+        }
+        else {
+            alert("Sorry! You're Failed!");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter12</title>
+</head>
+
+<body>
+  <h1>if...else and else if statements</h1>
+  <script>
+
+
+    var aver = prompt("Check your grade");
+    // var average = 0;
+    if (aver < 60) {
+      alert("Fail");
+    }
+    else if (aver < 70) {
+      alert("Grade D");
+    }
+    else if (aver < 80) {
+      alert("Grade C");
+    }
+    else if (aver < 90) {
+      alert("Grade B");
+    }
+    else if (aver < 100) {
+      alert("Grade A+");
+    }
+    else {
+      alert(aver);
+    }
+
+
+    var day = 3;
+
+
+    var dayName = +prompt("What day is today");
+    if (day == 1) {
+      dayName = 'Sunday';
+    }
+    else if (day == 2) {
+      dayName = 'Monday';
+    }
+    else if (day == 3) {
+      dayName = 'Tuesday';
+    }
+    else if (day == 4) {
+      dayName = 'Wednesday';
+    }
+    else if (day == 5) {
+      dayName = 'Thursday';
+    }
+    else if (day == 6) {
+      dayName = 'Friday';
+    }
+    else if (day == 7) {
+      dayName = 'Saturday';
+    }
+    else {
+      dayName = 'Invalid day';
+    }
+    console.log(dayName);
+
+  </script>
+</body>
+
+</html>
