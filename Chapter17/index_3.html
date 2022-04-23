@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Arrays:Removing, inserting,and extracting elements</h1>
+    <h3>Splice Method</h3>
+
+    <script>
+        // Add element form second index without removing
+
+        // Example1
+        var pets = ["dog", "cat", "fly", "bug", "ox"];
+
+        alert(pets);
+
+        pets.splice(2, 0, "goat", "duck", "emu");
+        alert(pets);
+
+
+        // Example2
+        var pets = ["dog", "cat", "fly", "bug", "ox"];
+
+        alert(pets);
+
+        pets.splice(2, 1, "goat", "duck", "emu");
+
+        alert(pets);
+
+        // Example3
+        var pets = ["dog", "cat", "fly", "bug", "ox"];
+
+        alert(pets);
+
+        pets.splice(2, 2);
+
+        alert(pets);
+
+
+        // Example4
+        var pets = ["dog", "cat", "fly", "bug", "ox"];
+
+        alert(pets);
+
+        var noPet = pets.slice(2, 4);
+
+        alert(noPet);
+    </script>
+</body>
+
+</html>

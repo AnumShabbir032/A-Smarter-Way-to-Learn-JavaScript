@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter16</title>
+</head>
+
+<body>
+    <h1>Arrays:Adding and removing elements</h1>
+
+    <script>
+         
+        //  Example 1
+
+        var pets = [];
+
+        pets[0] = "Cat";
+        pets[1] = "Dog";
+        pets[2] = "Cow";
+        pets[3] = "Goat";
+
+        alert(pets[0]);
+        alert(pets[1]);
+        alert(pets[2]);
+        alert(pets[3]);
+
+        pets[2] = "Sheep";
+        alert(pets[2]);
+
+        pets = [];
+
+          //  Example 2
+        var cities = [];
+
+        cities.push("Karachi");
+        cities.push("Lahore");
+
+    // push() method adds new items to the end of an array.
+
+        var a = cities.pop();
+        alert(a);
+
+        alert(cities.pop());
+
+    //pop() method removes (pops) the last element of an array. 
+    
+        //  Example 3
+        var cities = [];
+
+        cities.push("Karachi");
+        cities.push("Lahore");
+
+        alert(cities);
+
+        cities.push("Islamabad", "Peshawar", "Hyderabad");
+
+        alert(cities);
+
+    </script>
+</body>
+
+</html>
